@@ -1,3 +1,6 @@
+# MongoDB
+MongoDB is a popular noSQL database.  It's loose structure makes it well suited for capturing unstructured data, such as that encountered in web scraping.  This sprint will focus on getting up and running with this system.  This is intended to be an individual sprint.
+
 ## MongoDB Installation
 
 1. To install MongoDB, use your operating system's package manager:
