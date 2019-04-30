@@ -1,16 +1,14 @@
 # MongoDB
 MongoDB is a popular noSQL database.  It's loose structure makes it well suited for capturing unstructured data, such as that encountered in web scraping.  This sprint will focus on getting up and running with this system.  This is intended to be an individual sprint.
 
-## MongoDB Installation
+## AWS MongoDB Installation
+You should already have a local Mongo docker container.  Let's practice our AWS skills by spinning up a micro instance and practice installing on a remote machine.
 
 1. To install MongoDB, use your operating system's package manager:
-
-   - Mac OS X: `brew install mongodb`
    - Ubuntu Linux: `sudo apt-get install mongodb`
 
 2. Much like Postgres, you will need to launch the server before using Mongo for the first time. 
 
-   - Mac OS X: `brew services start mongodb`
    - Ubuntu Linux: `sudo /etc/init.d/mongodb start` 
 
 3. Check your installation by opening the MongoDB Client:
@@ -24,6 +22,16 @@ MongoDB is a popular noSQL database.  It's loose structure makes it well suited 
    - [MongoDB Cheatsheet][mongo-cheatsheet]
    - [Mongo Docs][mongo-docs]
    - [MongoDB Reference Cards][mongo-ref-cards]
+
+### Mac Install (Optional)
+You don't need to install locally, however, if you prefer not to use Docker here are the Mac steps.
+1. Install Mongo:
+   - Mac OS X: `brew install mongodb`
+
+2. Launch the server (note, you'll want to not have Docker running):
+   - Mac OS X: `brew services start mongodb`
+
+
 
 
 ## Practicing Mongo Queries 
